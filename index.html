@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cidade IMAFE · Ministério Pescador de Almas</title>
+<meta name="description" content="Cidade IMAFE, Igreja Missão Apostólica da Fé. Uma igreja que prioriza a exposição bíblica. Sede na Vila Maria Alta e campi Zona Leste, Zona Sul e Mairiporã.">
+<meta name="theme-color" content="#08090d">
+<meta property="og:title" content="Cidade IMAFE · Ministério Pescador de Almas">
+<meta property="og:description" content="Uma igreja que prioriza a exposição bíblica. Encontre o campus mais perto de você.">
+<meta property="og:image" content="img/campus-sede.jpg">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,600&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-beam"></div>
+  <img class="intro-logo" src="img/logo.png" alt="">
+  <p class="intro-line">uma igreja que prioriza a exposição bíblica</p>
+</div>
+
+<header class="hd" id="hd">
+  <a class="hd-logo" href="#top" aria-label="Cidade IMAFE, início"><img src="img/logo.png" alt="Cidade IMAFE"></a>
+  <nav class="hd-nav" aria-label="Seções">
+    <a href="#campi">Campi</a>
+    <a href="#palavra">Palavra</a>
+    <a href="#louvor">Louvor</a>
+    <a href="#ministerios">Ministérios</a>
+    <a href="#mensagens">Mensagens</a>
+    <a href="#agenda">Agenda</a>
+  </nav>
+  <a class="hd-live" href="https://imafe.inpeaceapp.com/live" target="_blank" rel="noopener"><i></i>Ao vivo</a>
+  <a class="hd-cta" href="#visite">Planeje sua visita</a>
+  <button class="hd-burger" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav>
+    <a href="#campi">Nossos campi</a>
+    <a href="#historia">Quem somos</a>
+    <a href="#palavra">Palavra</a>
+    <a href="#louvor">Louvor</a>
+    <a href="#ministerios">Ministérios</a>
+    <a href="#mensagens">Mensagens</a>
+    <a href="#oracao">Pedido de oração</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#visite" class="menu-cta">Planeje sua visita</a>
+  </nav>
+  <p class="menu-foot">Igreja Missão Apostólica da Fé · desde outubro de 2007</p>
+</div>
+
+<button class="sound" type="button" data-sound aria-pressed="false">
+  <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <span class="sound-t"><b>Ouvir o louvor</b><small>IMAFE Music · ao vivo na sede</small></span>
+</button>
+<audio data-audio src="video/louvor-music.m4a" loop preload="none"></audio>
+
+<main>
+
+<!-- HERO: parede de vídeos do Instagram -->
+<section class="hero" id="top">
+  <div class="wall" data-wall aria-hidden="true">
+    <div class="wcol" style="--dur:46s">
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w01.jpg" data-src="video/wall/w01.mp4"></video><figcaption>@imafemusic</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w13.jpg" data-src="video/wall/w13.mp4"></video><figcaption>Kids · Mairiporã</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w08.jpg" data-src="video/wall/w08.mp4"></video><figcaption>Culto com a família</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w17.jpg" data-src="video/wall/w17.mp4"></video><figcaption>Instituto Cidade IMAFE</figcaption></figure>
+    </div>
+    <div class="wcol wcol--rev" style="--dur:54s">
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w05.jpg" data-src="video/wall/w05.mp4"></video><figcaption>Conferência Insight</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w02.jpg" data-src="video/wall/w02.mp4"></video><figcaption>@imafemusic</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w14.jpg" data-src="video/wall/w14.mp4"></video><figcaption>@femme.imafe</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w12.jpg" data-src="video/wall/w12.mp4"></video><figcaption>Sede · Vila Maria Alta</figcaption></figure>
+    </div>
+    <div class="wcol" style="--dur:50s">
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w03.jpg" data-src="video/wall/w03.mp4"></video><figcaption>“Grande é o Senhor”</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w15.jpg" data-src="video/wall/w15.mp4"></video><figcaption>Campus Zona Sul</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w10.jpg" data-src="video/wall/w10.mp4"></video><figcaption>@imafemusic</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w04.jpg" data-src="video/wall/w04.mp4"></video><figcaption>Uma só voz</figcaption></figure>
+    </div>
+    <div class="wcol wcol--rev" style="--dur:58s">
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w07.jpg" data-src="video/wall/w07.mp4"></video><figcaption>@imafemusic</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w16.jpg" data-src="video/wall/w16.mp4"></video><figcaption>Kids · Zona Leste</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w11.jpg" data-src="video/wall/w11.mp4"></video><figcaption>Vamos juntos adorar</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w09.jpg" data-src="video/wall/w09.mp4"></video><figcaption>Culto Femme</figcaption></figure>
+    </div>
+    <div class="wcol" style="--dur:48s">
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w06.jpg" data-src="video/wall/w06.mp4"></video><figcaption>“Tu és o nosso oleiro”</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w12.jpg" data-src="video/wall/w12.mp4"></video><figcaption>Sede · Vila Maria Alta</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w05.jpg" data-src="video/wall/w05.mp4"></video><figcaption>Uma geração em chamas</figcaption></figure>
+      <figure><video muted loop playsinline preload="none" poster="video/wall/w01.jpg" data-src="video/wall/w01.mp4"></video><figcaption>@imafemusic</figcaption></figure>
+    </div>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="hero-in">
+    <img class="hero-logo" src="img/logo.png" alt="Cidade IMAFE · Ministério Pescador de Almas · Uma igreja que prioriza a exposição bíblica">
+    <h1 class="sr">Cidade IMAFE, uma igreja que prioriza a exposição bíblica</h1>
+    <p class="hero-sub">Uma igreja em expansão: sede na Vila Maria Alta e campi na Zona Leste, na Zona Sul e em Mairiporã.</p>
+    <div class="next" aria-live="polite">
+      <span class="next-dot"></span>
+      <div>
+        <p class="next-k" data-next-k>Próximo culto · Sede</p>
+        <p class="next-v" data-next-label>Domingo · 10h</p>
+      </div>
+      <div class="next-count" data-next-count></div>
+    </div>
+    <div class="hero-ctas">
+      <a class="btn btn-ember" href="#campi">Encontre um campus</a>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@CidadeIMAFE/live" target="_blank" rel="noopener"><span class="yt" aria-hidden="true"></span>Culto ao vivo</a>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-in" data-ticker>
+      <span>Domingo 10h e 18h · Culto com a família</span><span>Terça 20h · Terça da Parashá</span><span>Quinta 20h · Culto de Oração</span><span>06/12 · Palavra Profética 2027 no Ginásio da Portuguesa</span><span>24/10 · Conferência Femme 2026</span><span>Zona Leste · Zona Sul · Mairiporã · Qua e Sex 20h</span>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPI -->
+<section class="campi" id="campi">
+  <div class="sec-head">
+    <p class="eyebrow">Nossos campi</p>
+    <h2 class="h2">Uma Cidade,<br><em>quatro casas.</em></h2>
+    <p class="sec-lead">Escolha o campus mais perto de você e veja horários, endereço e quem vai te receber.</p>
+  </div>
+
+  <div class="campi-grid">
+    <div class="map" data-map>
+      <svg viewBox="0 0 600 560" aria-hidden="true">
+        <defs>
+          <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" class="map-dot"/></pattern>
+          <radialGradient id="mapfade" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+          <mask id="mapmask"><rect width="600" height="560" fill="url(#mapfade)"/></mask>
+        </defs>
+        <rect width="600" height="560" fill="url(#dots)" mask="url(#mapmask)"/>
+        <path class="map-river" d="M10 330 C 90 318, 150 340, 210 326 S 330 300, 380 312 S 470 330, 520 300 S 580 290, 600 296"/>
+        <text class="map-label" x="22" y="318">rio Tietê</text>
+        <text class="map-label" x="300" y="470">São Paulo</text>
+        </svg>
+      <svg class="map-net" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <line data-link="zl" x1="51.2" y1="53.6" x2="85" y2="51.7"/>
+        <line data-link="zs" x1="51.2" y1="53.6" x2="14.8" y2="88"/>
+        <line data-link="mairipora" x1="51.2" y1="53.6" x2="50.7" y2="9"/>
+      </svg>
+      <button class="pin" type="button" data-campus="sede" style="--x:51.2%;--y:53.6%"><i></i><span>Sede</span></button>
+      <button class="pin" type="button" data-campus="zl" style="--x:85%;--y:51.7%"><i></i><span>Zona Leste</span></button>
+      <button class="pin" type="button" data-campus="zs" style="--x:14.8%;--y:88%"><i></i><span>Zona Sul</span></button>
+      <button class="pin" type="button" data-campus="mairipora" style="--x:50.7%;--y:9%"><i></i><span>Mairiporã</span></button>
+    </div>
+
+    <article class="campus" data-campus-card>
+      <div class="campus-photo"><img data-c-img src="img/campus-sede.jpg" alt="" loading="lazy"><span class="campus-tag" data-c-tag>Sede</span></div>
+      <div class="campus-body">
+        <h3 data-c-name>Cidade IMAFE · Sede</h3>
+        <p class="campus-addr" data-c-addr></p>
+        <ul class="slots" data-c-slots></ul>
+        <dl class="campus-pastors" data-c-pastors></dl>
+        <p class="campus-note" data-c-note></p>
+        <div class="campus-ctas">
+          <a class="btn btn-ember" data-c-map href="#" target="_blank" rel="noopener">Como chegar</a>
+          <a class="btn btn-line" data-c-ig href="#" target="_blank" rel="noopener">@instagram</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="campus-tabs" role="tablist" aria-label="Campi">
+    <button type="button" role="tab" data-campus="sede">Sede</button>
+    <button type="button" role="tab" data-campus="zl">Zona Leste</button>
+    <button type="button" role="tab" data-campus="zs">Zona Sul</button>
+    <button type="button" role="tab" data-campus="mairipora">Mairiporã</button>
+  </div>
+</section>
+
+<!-- QUEM SOMOS: a rede se desenha -->
+<section class="pescador" id="historia">
+  <svg class="net" data-net viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <div class="pescador-in">
+    <p class="eyebrow">IMAFE · Igreja Missão Apostólica da Fé</p>
+    <blockquote class="verse">“Vinde após mim, e eu vos farei <em>pescadores de homens.</em>”<cite>Mateus 4:19</cite></blockquote>
+    <p class="manifesto-txt" data-words>Nascida em outubro de 2007 na Vila Maria Alta, Zona Norte de São Paulo, presidida pelo Bispo Adson Belo e pela Pastora Alba Belo, a Cidade IMAFE tem levado a Palavra de Deus de forma genuína, com verdade e fidelidade, e “pescado” muitas almas para Cristo no Brasil e no mundo, cumprindo o ide.</p>
+    <div class="stats">
+      <div><b data-count="19">0</b><span>anos completos em outubro de 2026</span></div>
+      <div><b data-count="4">0</b><span>casas: sede, Zona Leste, Zona Sul e Mairiporã</span></div>
+      <div><b data-count="144">0</b><span>almas na Conferência Insight 2026</span></div>
+      <div><b data-count="118" data-suffix=" mil">0</b><span>pessoas na @cidadeimafeoficial</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PALAVRA -->
+<section class="palavra" id="palavra">
+  <div class="palavra-sticky">
+    <div class="palavra-photos" aria-hidden="true">
+      <img class="pp-ph is-on" src="img/palavra-1.jpg" alt="" loading="lazy">
+      <img class="pp-ph" src="img/s05.jpg" alt="" loading="lazy">
+      <img class="pp-ph" src="img/palavra-2.jpg" alt="" loading="lazy">
+    </div>
+    <div class="palavra-txt">
+      <p class="eyebrow">A Palavra · 2 Coríntios 12:9</p>
+      <p class="palavra-big" data-light>Nem todo “não” de Deus é rejeição; às vezes, é tratamento e propósito.</p>
+      <p class="palavra-body" data-light>Paulo pediu que o espinho fosse retirado, mas Deus permitiu que ele permanecesse. O que Paulo queria ver removido, Deus usaria para ensiná-lo a depender da graça.</p>
+      <p class="palavra-quote"><em>O “não” de Deus também é resposta, e a graça dEle continua sendo suficiente.</em><small>Campus Zona Leste</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- LOUVOR: galeria horizontal -->
+<section class="louvor" id="louvor">
+  <div class="louvor-pin">
+    <div class="louvor-head">
+      <div>
+        <p class="eyebrow">Louvor · @imafemusic</p>
+        <h2 class="h2">Uma só voz, exaltando Aquele que é <em>digno de toda adoração.</em></h2>
+      </div>
+      <div class="louvor-side">
+        <button class="btn btn-line" type="button" data-sound-inline>Ouvir “Grande é o Senhor”</button>
+        <a class="btn btn-line" href="https://umusicbrazil.lnk.to/IMAFEMusic" target="_blank" rel="noopener">IMAFE Music nas plataformas</a>
+        <p class="louvor-hint"><span data-gal-count>01</span> / 16</p>
+      </div>
+    </div>
+    <div class="track" data-track>
+      <figure class="tcard"><img src="img/s01.jpg" alt="Jovem pulando em adoração na Conferência Insight" loading="lazy"><figcaption>Conferência Insight · Sede</figcaption></figure>
+      <figure class="tcard"><img src="img/g01.jpg" alt="Mulher adorando de olhos fechados" loading="lazy"><figcaption>Zona Leste</figcaption></figure>
+      <figure class="tcard"><img src="img/s03.jpg" alt="Igreja lotada na sede" loading="lazy"><figcaption>Sede · Vila Maria Alta</figcaption></figure>
+      <figure class="tcard"><img src="img/s09.jpg" alt="Mulheres adorando com as mãos levantadas" loading="lazy"><figcaption>Zona Sul</figcaption></figure>
+      <figure class="tcard"><img src="img/s02.jpg" alt="Jovens adorando com as mãos levantadas" loading="lazy"><figcaption>Uma geração em chamas</figcaption></figure>
+      <figure class="tcard"><img src="img/g05.jpg" alt="Mulher em oração" loading="lazy"><figcaption>Zona Leste</figcaption></figure>
+      <figure class="tcard"><img src="img/s11.jpg" alt="Mulher adorando em Mairiporã" loading="lazy"><figcaption>Mairiporã</figcaption></figure>
+      <figure class="tcard"><img src="img/s04.jpg" alt="Mulheres adorando na sede" loading="lazy"><figcaption>Culto Femme</figcaption></figure>
+      <figure class="tcard"><img src="img/g07.jpg" alt="Equipe de louvor em preto e branco" loading="lazy"><figcaption>No louvor</figcaption></figure>
+      <figure class="tcard"><img src="img/s06.jpg" alt="Mulher adorando com a mão no peito" loading="lazy"><figcaption>Sede</figcaption></figure>
+      <figure class="tcard"><img src="img/s10.jpg" alt="Mulher orando de mãos juntas" loading="lazy"><figcaption>Zona Sul</figcaption></figure>
+      <figure class="tcard"><img src="img/s07.jpg" alt="Jovem adorando de olhos fechados" loading="lazy"><figcaption>Conferência Insight</figcaption></figure>
+      <figure class="tcard"><img src="img/g09.jpg" alt="Casal abraçado em oração" loading="lazy"><figcaption>Oração pela família</figcaption></figure>
+      <figure class="tcard"><img src="img/s12.jpg" alt="Mulher adorando em Mairiporã" loading="lazy"><figcaption>Mairiporã</figcaption></figure>
+      <figure class="tcard"><img src="img/s08.jpg" alt="Ministração de dança no altar da sede" loading="lazy"><figcaption>ATOS · Companhia de dança</figcaption></figure>
+      <figure class="tcard"><img src="img/g15.jpg" alt="Igreja de pé em adoração" loading="lazy"><figcaption>Senhor, Tu és bom</figcaption></figure>
+    </div>
+    <div class="louvor-bar"><i data-gal-bar></i></div>
+  </div>
+</section>
+
+<!-- MINISTÉRIOS -->
+<section class="ministerios" id="ministerios">
+  <div class="sec-head">
+    <p class="eyebrow">Ministérios</p>
+    <h2 class="h2">Tem um lugar <em>para você.</em></h2>
+  </div>
+  <div class="mgrid">
+    <a class="mcard mcard--big" href="https://www.instagram.com/imafemusic/" target="_blank" rel="noopener">
+      <video muted loop playsinline preload="none" poster="video/wall/w03.jpg" data-src="video/wall/w03.mp4"></video>
+      <div><p class="mk">@imafemusic</p><h3>IMAFE Music</h3><p>O louvor da Cidade IMAFE, no altar e nas plataformas.</p></div>
+    </a>
+    <a class="mcard" href="https://www.instagram.com/jpaimafe/" target="_blank" rel="noopener">
+      <video muted loop playsinline preload="none" poster="video/wall/w05.jpg" data-src="video/wall/w05.mp4"></video>
+      <div><p class="mk">@jpaimafe · @gerai.imafe</p><h3>JPA e GERAI</h3><p>Jovens Pescadores de Almas e adolescentes. Sábado 18h30, encontros quinzenais.</p></div>
+    </a>
+    <a class="mcard" href="https://www.instagram.com/femme.imafe/" target="_blank" rel="noopener">
+      <video muted loop playsinline preload="none" poster="video/wall/w14.jpg" data-src="video/wall/w14.mp4"></video>
+      <div><p class="mk">@femme.imafe</p><h3>FEMME</h3><p>Ministério de mulheres, com a Pastora Sênior Alba Belo.</p></div>
+    </a>
+    <a class="mcard" href="https://www.instagram.com/imafe.kids/" target="_blank" rel="noopener">
+      <video muted loop playsinline preload="none" poster="video/wall/w16.jpg" data-src="video/wall/w16.mp4"></video>
+      <div><p class="mk">@imafe.kids</p><h3>Cidade Kids</h3><p>Crianças de 2 a 11 anos. Check-in no hall da Cidade Kids, chegue mais cedo.</p></div>
+    </a>
+    <a class="mcard" href="https://www.instagram.com/institutocidadeimafe/" target="_blank" rel="noopener">
+      <video muted loop playsinline preload="none" poster="video/wall/w17.jpg" data-src="video/wall/w17.mp4"></video>
+      <div><p class="mk">@institutocidadeimafe</p><h3>Instituto Cidade IMAFE</h3><p>Atividades abertas a todas as pessoas, independentemente de religião.</p></div>
+    </a>
+    <ul class="mlist">
+      <li><b>Ministério de Casais</b><span>Pr. Sérgio e Pra. Joyce Cavalcante</span></li>
+      <li><b>ATOS · Companhia de dança</b><span>Suelen Gomes e Larissa Sinoca</span></li>
+      <li><b>USI · União Social IMAFE</b><span>Tatiana Nascimento</span></li>
+      <li><a href="https://imafe.inpeaceapp.com/ebds" target="_blank" rel="noopener"><b>ITEPA Bible College</b><span>Estudo bíblico ↗</span></a></li>
+      <li><b>Terça da Parashá</b><span>Séries e estudos bíblicos · terça 20h na sede</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- MENSAGENS: YouTube -->
+<section class="mensagens" id="mensagens">
+  <div class="sec-head sec-head--row">
+    <div>
+      <p class="eyebrow">Mensagens · YouTube Cidade IMAFE</p>
+      <h2 class="h2">Cultos transmitidos <em>direto da sede.</em></h2>
+    </div>
+    <a class="btn btn-line" href="https://www.youtube.com/@CidadeIMAFE" target="_blank" rel="noopener">Ver o canal</a>
+  </div>
+  <div class="yt-grid" data-yt>
+    <button class="ytc ytc--big" type="button" data-yt-id="v8XymRugSeQ"><img src="https://i.ytimg.com/vi/v8XymRugSeQ/hqdefault.jpg" alt="" loading="lazy"><span class="ytc-play"></span><span class="ytc-t"><small>18 out · Ao vivo</small>Culto com a Família, direto da Cidade IMAFE</span></button>
+    <button class="ytc" type="button" data-yt-id="PF0UtDgnbZQ"><img src="https://i.ytimg.com/vi/PF0UtDgnbZQ/hqdefault.jpg" alt="" loading="lazy"><span class="ytc-play"></span><span class="ytc-t"><small>14 out · Terça da Parashá</small>O navio pode afundar, mas a promessa não!</span></button>
+    <button class="ytc" type="button" data-yt-id="9G_FfaxvP-w"><img src="https://i.ytimg.com/vi/9G_FfaxvP-w/hqdefault.jpg" alt="" loading="lazy"><span class="ytc-play"></span><span class="ytc-t"><small>12 out · Culto com a Família</small>Deus faz o extraordinário para revelar o simples!</span></button>
+    <button class="ytc" type="button" data-yt-id="NTlqYF6qJR0"><img src="https://i.ytimg.com/vi/NTlqYF6qJR0/hqdefault.jpg" alt="" loading="lazy"><span class="ytc-play"></span><span class="ytc-t"><small>11 out · Conferência com os homens</small>4 verdades que todo homem precisa aprender!</span></button>
+    <button class="ytc" type="button" data-yt-id="OQs7R1FQlZU"><img src="https://i.ytimg.com/vi/OQs7R1FQlZU/hqdefault.jpg" alt="" loading="lazy"><span class="ytc-play"></span><span class="ytc-t"><small>5 out · Culto de Ceia</small>Quem é Jesus? A confissão que transforma tudo!</span></button>
+  </div>
+</section>
+
+<!-- ORAÇÃO -->
+<section class="oracao" id="oracao">
+  <div class="oracao-photos" aria-hidden="true">
+    <img data-par="-0.06" src="img/g08.jpg" alt="" loading="lazy">
+    <img data-par="0.08" src="img/s10.jpg" alt="" loading="lazy">
+    <img data-par="-0.12" src="img/g10.jpg" alt="" loading="lazy">
+  </div>
+  <div class="oracao-txt">
+    <p class="eyebrow">Pedido de oração</p>
+    <h2 class="h2">Oração pela <em>família.</em></h2>
+    <p>Quinta, 20h, é dia de Culto de Oração na sede. Deixe seu pedido no Mural de orações da Cidade IMAFE.</p>
+    <form class="prayer" id="prayer" novalidate>
+      <fieldset>
+        <legend>Por quem vamos orar?</legend>
+        <div class="chips">
+          <label><input type="checkbox" name="motivo" value="minha família" checked><span>Família</span></label>
+          <label><input type="checkbox" name="motivo" value="meu casamento"><span>Casamento</span></label>
+          <label><input type="checkbox" name="motivo" value="meus filhos"><span>Filhos</span></label>
+          <label><input type="checkbox" name="motivo" value="saúde"><span>Saúde</span></label>
+          <label><input type="checkbox" name="motivo" value="trabalho"><span>Trabalho</span></label>
+          <label><input type="checkbox" name="motivo" value="minha vida espiritual"><span>Vida espiritual</span></label>
+        </div>
+      </fieldset>
+      <label class="field"><span>Seu pedido</span><textarea name="pedido" rows="3" placeholder="Escreva com suas palavras."></textarea></label>
+      <button class="btn btn-ember btn-wide" type="submit">Levar ao Mural de orações</button>
+      <p class="plan-hint" data-prayer-hint>O pedido é copiado e o Mural de orações abre no app da igreja.</p>
+    </form>
+  </div>
+  <div class="embers" data-embers aria-hidden="true"></div>
+</section>
+
+<!-- CEIA -->
+<section class="ceia" id="ceia">
+  <div class="ceia-in">
+    <p class="eyebrow">Ceia do Senhor</p>
+    <svg class="ceia-art" data-draw viewBox="0 0 320 180" aria-hidden="true">
+      <path d="M40 120c0-26 26-44 60-44s60 18 60 44c0 10-8 16-18 16H58c-10 0-18-6-18-16z"/>
+      <path d="M62 92c6 8 6 18 0 26M88 82c6 10 6 24 0 34M114 82c6 10 6 24 0 34M138 92c6 8 6 18 0 26"/>
+      <path d="M216 40h64c0 34-12 56-32 60-20-4-32-26-32-60z"/>
+      <path d="M248 100v38M226 146c0-5 10-8 22-8s22 3 22 8"/>
+    </svg>
+    <h2 class="h2">Fazei isto em <em>memória de mim.</em></h2>
+    <p class="ceia-ref">1 Coríntios 11:24 · o culto mais importante do mês</p>
+    <div class="ceia-dates">
+      <div><p class="ck">Sede</p><p>1º domingo · 10h e 18h</p><p class="cn" data-ceia="1">…</p></div>
+      <div><p class="ck">Campus Zona Leste</p><p>2º domingo · 10h</p><p class="cn" data-ceia="2">…</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENDA -->
+<section class="agenda" id="agenda">
+  <div class="sec-head">
+    <p class="eyebrow">Agenda</p>
+    <h2 class="h2">Aumente as expectativas e <em>aqueça o coração.</em></h2>
+  </div>
+
+  <article class="pp">
+    <div class="pp-bg" aria-hidden="true"><span>2027</span></div>
+    <div class="pp-info">
+      <p class="pp-tag">Palavra Profética 2027 · Entrada franca</p>
+      <h3 class="pp-title">A maior Palavra Profética da história.</h3>
+      <p class="pp-when"><b>06 de dezembro de 2026</b> · das 17h às 22h</p>
+      <p class="pp-where">Ginásio da Portuguesa · Rua Comendador Nestor Pereira, 33 · Canindé · para 10 mil pessoas</p>
+      <p class="pp-desc">Uma noite de adoração e de receber a palavra profética que conduzirá o nosso ano de 2027 com o Bispo Adson Belo.</p>
+      <div class="countdown" data-countdown="2026-12-06T17:00:00-03:00">
+        <div><b data-d>00</b><span>dias</span></div>
+        <div><b data-h>00</b><span>horas</span></div>
+        <div><b data-m>00</b><span>min</span></div>
+        <div><b data-s>00</b><span>seg</span></div>
+      </div>
+      <div class="campus-ctas">
+        <a class="btn btn-ember" href="https://www.google.com/maps/search/?api=1&query=Gin%C3%A1sio+da+Portuguesa+Rua+Comendador+Nestor+Pereira+33+Canind%C3%A9+S%C3%A3o+Paulo" target="_blank" rel="noopener">Como chegar</a>
+        <a class="btn btn-line" href="#" data-ics>Salvar na agenda</a>
+      </div>
+    </div>
+    <div class="pp-lineup" data-lineup>
+      <figure class="lu" style="--i:0"><img src="img/pp-eli.jpg" alt="Eli Soares" loading="lazy"></figure>
+      <figure class="lu" style="--i:1"><img src="img/pp-paloma.jpg" alt="Paloma Possi" loading="lazy"></figure>
+      <figure class="lu" style="--i:2"><img src="img/pp-juliane.jpg" alt="Juliane Nogueira" loading="lazy"></figure>
+      <figure class="lu" style="--i:3"><img src="img/pp-music.jpg" alt="IMAFE Music" loading="lazy"></figure>
+      <figure class="lu" style="--i:4"><img src="img/pp-coral.jpg" alt="Coral Cidade IMAFE" loading="lazy"></figure>
+    </div>
+  </article>
+
+  <div class="events">
+    <article class="ev">
+      <p class="ev-date"><b>24</b><span>out</span></p>
+      <div>
+        <h3>Conferência Femme 2026</h3>
+        <p>Thamires Garcia é presença confirmada. Um dia de cura, Palavra, adoração, comunhão e alegria. Convide uma amiga especial.</p>
+        <p class="ev-meta">17h às 22h · Sede · Entrada franca</p>
+      </div>
+    </article>
+    <article class="ev">
+      <p class="ev-date"><b>31</b><span>out</span></p>
+      <div>
+        <h3>Maratona de Matemática para o ENEM</h3>
+        <p>Última aula: entendendo as questões, das mais fáceis às mais difíceis.</p>
+        <p class="ev-meta">Instituto Cidade IMAFE · Inscrições gratuitas</p>
+      </div>
+    </article>
+    <article class="ev ev--img">
+      <img src="img/insight-144.jpg" alt="144 almas na Conferência Insight 2026" loading="lazy">
+      <div>
+        <h3>Conferência Insight 2026</h3>
+        <p>Uma noite que marcou a nossa história. Uma geração que ama a Palavra de Deus.</p>
+        <p class="ev-meta">@jpaimafe · @gerai.imafe</p>
+      </div>
+    </article>
+  </div>
+  <p class="agenda-more"><a href="https://imafe.inpeaceapp.com/events" target="_blank" rel="noopener">Inscrições e todos os eventos no app da Cidade IMAFE →</a></p>
+</section>
+
+<!-- VISITE -->
+<section class="visite" id="visite">
+  <div class="visite-bg" aria-hidden="true"><img src="img/campus-sede.jpg" alt="" loading="lazy"></div>
+  <div class="visite-in">
+    <div class="visite-txt">
+      <p class="eyebrow">Planeje sua visita</p>
+      <h2 class="h2">Esperamos por você <em>e sua família.</em></h2>
+      <p>Escolha o campus e o culto. A mensagem vai pronta para o WhatsApp da secretaria da Cidade IMAFE.</p>
+      <ul class="estrutura" aria-label="Estrutura">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>Estacionamento</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v8a3 3 0 0 0 6 0V3M8 3v18M17 21V3c-2 0-3 3-3 7s1 4 3 4"/></svg>Espaço Gourmet</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3"/><path d="M6 21v-3a6 6 0 0 1 12 0v3"/></svg>Cidade Kids</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>Sala de Acolhimento e Fé</li>
+      </ul>
+      <p class="visite-contact">Gabinete pastoral, apresentação de criança, visita pastoral:<br><a href="https://wa.me/5511987027318" target="_blank" rel="noopener">WhatsApp (11) 98702-7318</a> · <a href="mailto:secretariacidadeimafe@gmail.com">secretariacidadeimafe@gmail.com</a></p>
+    </div>
+
+    <form class="plan" id="plan" novalidate>
+      <fieldset>
+        <legend>Campus</legend>
+        <div class="chips" data-plan-campus>
+          <label><input type="radio" name="campus" value="sede" checked><span>Sede</span></label>
+          <label><input type="radio" name="campus" value="zl"><span>Zona Leste</span></label>
+          <label><input type="radio" name="campus" value="zs"><span>Zona Sul</span></label>
+          <label><input type="radio" name="campus" value="mairipora"><span>Mairiporã</span></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Culto</legend>
+        <div class="chips" data-plan-cultos></div>
+      </fieldset>
+      <div class="plan-row">
+        <fieldset class="stepper">
+          <legend>Quantas pessoas</legend>
+          <div><button type="button" data-step="-1" aria-label="Menos">−</button><output name="qtd">1</output><button type="button" data-step="1" aria-label="Mais">+</button></div>
+        </fieldset>
+        <label class="toggle"><input type="checkbox" name="kids"><span></span>Vou levar crianças</label>
+        <label class="toggle"><input type="checkbox" name="first" checked><span></span>Primeira vez</label>
+      </div>
+      <label class="field"><span>Seu nome</span><input type="text" name="nome" autocomplete="given-name" placeholder="Como podemos te chamar?"></label>
+      <div class="plan-preview" data-plan-preview></div>
+      <button class="btn btn-ember btn-wide" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <img class="ft-logo" src="img/logo.png" alt="Cidade IMAFE · Ministério Pescador de Almas · Uma igreja que prioriza a exposição bíblica">
+  <div class="ft-cols">
+    <div>
+      <p class="ft-k">Sede</p>
+      <p>Av. Ten. José Jerônimo de Mesquita, 155<br>Vila Maria Alta · São Paulo · 02146-000</p>
+      <p>Dom 10h e 18h · Ter 20h · Qui 20h</p>
+    </div>
+    <div>
+      <p class="ft-k">Campus Zona Leste</p>
+      <p>Rua Silveira Pires, 504<br>São Miguel Paulista · São Paulo</p>
+      <p>Dom 10h · Qua 20h · Sex 20h</p>
+    </div>
+    <div>
+      <p class="ft-k">Campus Zona Sul</p>
+      <p>Rua Antônio da Cruz Messias, 149<br>Jardim São Luís · São Paulo</p>
+      <p>Dom 10h · Qua 20h · Sex 20h</p>
+    </div>
+    <div>
+      <p class="ft-k">Campus Mairiporã</p>
+      <p>Av. Vereador Carlos Nunes, 71A<br>Centro · Mairiporã</p>
+      <p>Dom 10h · Qua 20h · Sex 20h</p>
+    </div>
+  </div>
+  <div class="ft-links">
+    <a href="https://www.instagram.com/cidadeimafeoficial/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.youtube.com/@CidadeIMAFE" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.tiktok.com/@cidadeimafeoficial" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://www.facebook.com/imafeministeriopescadordealmas/" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://imafe.inpeaceapp.com/give" target="_blank" rel="noopener">Dízimos e Ofertas</a>
+    <a href="https://imafe.inpeaceapp.com/" target="_blank" rel="noopener">App Cidade IMAFE</a>
+    <a href="https://drive.google.com/drive/folders/1B19yVX-PBXJ_aPuqsnAapXx4MaaPVYHZ?usp=sharing" target="_blank" rel="noopener">Confissão de Fé</a>
+  </div>
+  <p class="ft-base">Pastores Seniores: Bispo Adson Belo e Pastora Alba Belo · Cidade IMAFE · Igreja Missão Apostólica da Fé</p>
+</footer>
+
+<div class="ytm" data-ytm hidden>
+  <button class="ytm-x" type="button" aria-label="Fechar vídeo">×</button>
+  <div class="ytm-box"><iframe title="Mensagem da Cidade IMAFE" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+<script src="main.js?v=4"></script>
+</body>
+</html>
