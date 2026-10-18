@@ -302,12 +302,11 @@
   const louvor = $('.louvor'), track = $('[data-track]'), bar = $('[data-gal-bar]'), galCount = $('[data-gal-count]');
   const pars = $$('[data-par]'), pesc = $('.pescador');
   const navLinks = $$('.hd-nav a'), secs = navLinks.map(a => $(a.getAttribute('href')));
-  const sound = $('.sound'), ft = $('.ft');
   let lastY = scrollY, vh = innerHeight, trackW = 0, ticking = false;
 
   function measure() {
     vh = innerHeight; trackW = track.scrollWidth;
-    louvor.style.height = (Math.max(0, trackW - innerWidth) + vh) + 'px';
+    louvor.style.height = innerWidth > 820 ? (Math.max(0, trackW - innerWidth) + vh) + 'px' : '';
   }
 
   function onScroll() {
@@ -340,7 +339,7 @@
 
     // louvor horizontal
     const lr = louvor.getBoundingClientRect(), span = lr.height - vh;
-    if (span > 0) {
+    if (span > 0 && innerWidth > 820) {
       const p = clamp(-lr.top / span);
       track.style.transform = `translate3d(${-p * Math.max(0, trackW - innerWidth)}px,0,0)`;
       bar.style.transform = `scaleX(${p})`;
@@ -359,13 +358,15 @@
     navLinks.forEach((a, i) => a.classList.toggle('is-on', i === on));
 
     // botão de som some no rodapé
-    sound.style.transform = ft.getBoundingClientRect().top < vh ? 'translateY(200%)' : '';
-    sound.classList.toggle('in-hero', y < vh * .7);
   }
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   addEventListener('resize', () => { measure(); onScroll(); });
   addEventListener('load', () => { measure(); onScroll(); });
   $$('.track img').forEach(i => i.addEventListener('load', measure, { once: true }));
+  track.addEventListener('scroll', () => {
+    const cw = track.firstElementChild.offsetWidth + 16;
+    galCount.textContent = pad(1 + Math.round(track.scrollLeft / cw));
+  }, { passive: true });
 
   /* ---------- pedido de oração ---------- */
   const prayer = $('#prayer'), embers = $('[data-embers]'), pHint = $('[data-prayer-hint]');
